@@ -12,6 +12,7 @@ class Customer extends Model
     public $timestamps = false;
 
     public const CUSTOMER_ACTIVE = 'A';
+    public const CUSTOMER_TRASH_STATUS = 'trash';
 
     protected $fillable = [
         'dni', 'id_reg', 'id_com', 'email', 'name', 'last_name', 'address', 'date_reg', 'status',
