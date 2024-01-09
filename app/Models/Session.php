@@ -12,20 +12,12 @@ class Session extends Model
         'email',
         'login_time',
         'token',
-        // ... otras columnas según tus necesidades ...
     ];
 
-    // Relaciones
-    // (ejemplos, ajusta según tu lógica y estructura de datos)
 
     public function user()
     {
         return $this->belongsTo(User::class, 'email', 'email');
     }
-
-    // Métodos adicionales según tus necesidades
-
-    // ...
-
 }
 

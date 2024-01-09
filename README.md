@@ -124,17 +124,9 @@ En algunos casos, se utilizan form requests personalizados incluso en la capa de
 
 ### Middleware
 
-El manejo de tokens de autenticación y el registro de logs de entrada y salida se realizan mediante middleware personalizados. Estos middleware permiten extender las funcionalidades del sistema de manera modular y centralizada. El middleware de autenticación asegura la validez y vigencia de los tokens antes de procesar las solicitudes, mientras que el middleware de logs registra la información relevante sobre las peticiones y respuestas.
+El manejo de tokens de autenticación y el registro de logs de entrada y salida se realizan mediante middleware "personalizados". Estos middleware permiten extender las funcionalidades del sistema de manera modular y centralizada. El middleware de autenticación asegura la validez y vigencia de los tokens antes de procesar las solicitudes, mientras que el middleware de logs registra la información relevante sobre las peticiones y respuestas.
 
 Esta estructura técnica busca promover la reutilización del código, la legibilidad y la escalabilidad del proyecto, siguiendo las mejores prácticas de desarrollo en Laravel.
-
-### Por otro lado
-
-Tambien tengo mucha experiencia con VUE 3 en el lado del frontend, por lo cual con un día o dos mas, podria realizar el proyecto para que consuma las api del backend con las validaciones y manejo de errores. Con un entorno familiar para que se pueda utilizar.
-
-Y tambien e realizado proyectos con NODEJS y TypeScript en el backend.
-
-¡Gracias por hacerme participar en la prueba de entrevista!
 
 - [Mi Linkedin](https://linkedin.com/in/gaston-secanell-126bb4260).
 - [Mi email personal](mailto:gastonsecanell@gmail.com).
